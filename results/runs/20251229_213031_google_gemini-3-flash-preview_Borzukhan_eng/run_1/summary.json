@@ -1,0 +1,34 @@
+{
+  "run": 1,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 156880,
+  "total_tokens_out": 7875,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 15,
+      "llm_calls": 11,
+      "failure_reflection": "REASONING:\n1. **Strategic Mistakes**: Using a grenade (a loud explosive) in Step 14 was a mistake. While it cleared the initial guards, the text explicitly stated the noise \"shook the rocks\" and \"attracted the guards' attention,\" leading to an overwhelming force in the corridor. Additionally, I moved too quickly into the northern mountains without fully exhausting the forest lead, which might have offered a more stealthy approach or better intel.\n2. **Do Differently**: I should use the laser gun for the initial encounter to maintain a degree of stealth or wait for a more critical moment to use limited grenades. If forced into a group encounter, I must consider if there's a path that avoids direct confrontation with reinforcements.\n3. **Information Discovered**: The northern mountains contain a guarded cave, but loud entries trigger an alert state that makes progression via the main corridor nearly impossible. The \"grotto\" in the east is a dead end/distraction. The southwest forest remains unexplored and likely holds a quieter path to the base.\n\nACTION: 0"
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 28,
+      "llm_calls": 19,
+      "failure_reflection": "REASONING: The key mistake was attempting a physical confrontation (concussion) while \"seriously wounded.\" In Space Rangers quests, being wounded significantly lowers your success rate in physical tasks. While the reactor was the correct target, I engaged a \"tough\" opponent in hand-to-hand combat instead of using my remaining resources. \n\nNext time, I must prioritize my health earlier or use the laser gun/grenades to neutralize threats instantly when my health is low, even if it risks losing a capture bonus. My pathing (Right corridor -> Canteen -> Left door) successfully identified the reactor room, which is the primary objective for the explosives. I now know the layout: the reactor is behind the left door of the canteen. To succeed, I should arrive at this final room with more health or use my ranged weaponry immediately to secure the room before setting the charge.\n\nFINAL NOTE: The reactor is the \"weak spot.\" Ensure high health before entering the cave or use the laser/grenade on the Peleng guard to end the fight quickly.\n\nACTION: 1"
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 27,
+      "llm_calls": 19,
+      "failure_reflection": null
+    }
+  ]
+}

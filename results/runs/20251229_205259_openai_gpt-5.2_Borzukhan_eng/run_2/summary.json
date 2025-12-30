@@ -1,0 +1,34 @@
+{
+  "run": 2,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 480953,
+  "total_tokens_out": 26530,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 19,
+      "llm_calls": 15,
+      "failure_reflection": "Key mistake: I rushed the capture the moment I saw Borzukhan, firing the nearly-discharged stunner from a risky position (through/near a window) without controlling distance, line-of-sight, or escape routes. I didn\u2019t account for the possibility the stunner wouldn\u2019t reliably incapacitate (glass/angle/range), and I left myself exposed for an immediate counterattack.\n\nNext time: treat the cabin like a breach. First, recon the full perimeter (doors, back exit, other windows), pick the safest entry point, and position for cover and retreat. Close distance before using the stunner (ideally after entering silently), and be ready with the laser as backup if the stun fails. Also plan to secure him immediately (weapons/comms, bind) before he can react.\n\nUseful info learned: Borzukhan regularly isolates in a cabin in the western woods; following/ambushing his squad provided ammo and a stunner and confirmed the \u201ccabin lead\u201d is a strong path to locating him."
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 57,
+      "llm_calls": 42,
+      "failure_reflection": "Key logical mistake: I tried to \u201cfinish\u201d the mission at the first plausible interior junction by planting explosives immediately, without confirming I\u2019d actually found the *core* of the base or the correct objective point. In these quests the win condition usually requires reaching a specific area (command room/warehouse/reactor/hangar) or obtaining information first (e.g., from the door room), not just setting a charge anywhere.\n\nWhat to do differently next time:\n- Don\u2019t assume any tunnel intersection is enough\u2014verify you\u2019re at the base\u2019s critical structure/objective location.\n- Use the nearby door with voices as an intelligence opportunity: listen longer, enter carefully, possibly capture/interrogate for directions/codes, or quietly clear a small room to avoid larger patrols.\n- Choose left/right systematically (map mentally, backtrack only when necessary), and avoid \u201cendgame\u201d actions until the quest clearly signals the correct target.\n- If there\u2019s any option earlier to treat wounds or get armor before assaulting, prioritize it.\n\nInfo discovered: the sea-grotto route can dead-end/loop; the mountain cave is a valid entry but triggers heavy guard response after explosions."
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 35,
+      "llm_calls": 25,
+      "failure_reflection": null
+    }
+  ]
+}

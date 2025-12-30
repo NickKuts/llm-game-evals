@@ -1,0 +1,767 @@
+{
+  "run_id": "20251229_205259_openai_gpt-5.2_Borzukhan_eng_run3_attempt3",
+  "timestamp": "2025-12-29T20:52:59.351274+00:00",
+  "model": "openai/gpt-5.2",
+  "quest_file": "assets/json/Borzukhan_eng.json",
+  "quest_name": "Dear <Ranger>! We have received information saying",
+  "completed": true,
+  "game_status": "WIN",
+  "steps": 33,
+  "llm_calls": 23,
+  "total_input_tokens": 110520,
+  "total_output_tokens": 7193,
+  "error": null,
+  "attempt": 3,
+  "history": [
+    {
+      "step": 0,
+      "location_text": "Dear Ranger! We have received information saying that there is a secret base of the famous Peleng Lyakusha named Borzukhan on the uninhabited planet of Bonnasis in Procyon system. Right now we are planning an operation to find and destroy that base, but we need a sufficiently experienced fighter to accomplish this mission. If you agree, you will have to go to the planet of Bonnasis within 35 days. We already have a camp deployed on the planet, where our agents who will brief you on the mission will meet you. You shouldn't have any problems finding the camp; there's a radio beacon nearby. Your fee for this mission will round up to 65535 cr.",
+      "params": [],
+      "choices": [
+        "I agree"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 1,
+      "location_text": "In the camp you were met by the agent of planet Earth.\r\n- Dear Ranger, I am glad to meet you here at the planet of Bonnasis. My name is Carl. As you have probably been told already, your objective here is to locate and destroy a secret Peleng base, known as Lyakusha Borzukhan. The main thing is to destroy the base. At that you will most likely encounter resistance form Borzuklhan himself. If that is the case, you have the full responsibility of what to do, but it would be better if you mange to take the Peleng alive. If you manage to do that we will pay you an extra 1000 cr as a bonus. If you have any questions ask now and I will try to tell you everything I know myself.",
+      "params": [
+        "You are totally healthy",
+        "Your money: 2000",
+        ""
+      ],
+      "choices": [
+        "I'm ready!",
+        "Why didn't you locate the base yourselves?",
+        "How do I find Borzukhan's base?",
+        "How do I destroy the base?"
+      ],
+      "llm_response": "REASONING: We\u2019re at the briefing stage with Carl, fully healthy and with limited funds. The mission priority is locating and destroying the secret Peleng base; capturing Borzukhan alive is optional but gives a bonus, so we should plan for it but not at the cost of dying or failing the sabotage. Right now the biggest uncertainty is *where* the base is and what routes/landmarks to use\u2014getting that wrong wastes time and can funnel us into dead-end paths (a prior lesson was that some routes loop or dead-end). The best immediate move is to extract actionable navigation intel: terrain clues, which direction to search, any known entrances, patrol patterns, and what not to do. So I should ask how to find Borzukhan\u2019s base first.\n\nACTION: 3",
+      "reasoning": "We\u2019re at the briefing stage with Carl, fully healthy and with limited funds. The mission priority is locating and destroying the secret Peleng base; capturing Borzukhan alive is optional but gives a bonus, so we should plan for it but not at the cost of dying or failing the sabotage. Right now the biggest uncertainty is *where* the base is and what routes/landmarks to use\u2014getting that wrong wastes time and can funnel us into dead-end paths (a prior lesson was that some routes loop or dead-end). The best immediate move is to extract actionable navigation intel: terrain clues, which direction to search, any known entrances, patrol patterns, and what not to do. So I should ask how to find Borzukhan\u2019s base first.",
+      "chosen_index": 3,
+      "input_tokens": 1062,
+      "output_tokens": 215,
+      "was_auto": false
+    },
+    {
+      "step": 2,
+      "location_text": "- This may surely become a difficult task, since the planet is rather large. Although I could still advise you on the locations, where, we think, the base is most likely to be found. The three most possible base locations are, in our opinion, the mountains north of our camp, the forest south-west of the camp, or the underground caves, which you can reach via a grotto in the east, by the coast. \r\nBut, in any event, keep your eyes open and your ears pricked, it is quite likely that we do not know everything, so do not let this information misguide you.",
+      "params": [
+        "You are totally healthy",
+        "Your money: 2000",
+        ""
+      ],
+      "choices": [
+        "I'm ready!",
+        "How do I destroy the base?",
+        "Why didn't you locate the base yourselves?"
+      ],
+      "llm_response": "REASONING: We now have three candidate search areas (mountains north, forest southwest, coastal grotto east leading to caves). Prior experience suggests some routes can dead-end/loop, and the \u201creal lead\u201d tended to be the mountain/cave rather than wasting time in misleading terrain\u2014so we\u2019ll keep that in mind when choosing where to go. But before leaving, the most valuable remaining intel is *method*: how the base can be destroyed (reactor sabotage, explosives placement, weak points, access requirements). Knowing the intended destruction mechanism helps us prepare for stealth, minimize loud engagements, and avoid wasting resources. Asking why they didn\u2019t locate it is less actionable for mission success.\n\nACTION: 2",
+      "reasoning": "We now have three candidate search areas (mountains north, forest southwest, coastal grotto east leading to caves). Prior experience suggests some routes can dead-end/loop, and the \u201creal lead\u201d tended to be the mountain/cave rather than wasting time in misleading terrain\u2014so we\u2019ll keep that in mind when choosing where to go. But before leaving, the most valuable remaining intel is *method*: how the base can be destroyed (reactor sabotage, explosives placement, weak points, access requirements). Knowing the intended destruction mechanism helps us prepare for stealth, minimize loud engagements, and avoid wasting resources. Asking why they didn\u2019t locate it is less actionable for mission success.",
+      "chosen_index": 2,
+      "input_tokens": 1417,
+      "output_tokens": 171,
+      "was_auto": false
+    },
+    {
+      "step": 3,
+      "location_text": "- Of course we are not going to send you there unarmed. You will get a laser gun and several grenades in case you run into armed guards. In addition to that we are going to give you a special explosive device with remote control detonator. You will have to find out what is the base's weakest spot and set the explosives there. But do not forget that the capturing of Lyakusha Borzukhan himself is no less important. As I've already mentioned we'd rather that you take him alive, for which we will pay you a bonus, but if that proves impossible you can kill him. In any event do not let him escape!",
+      "params": [
+        "You are totally healthy",
+        "Your money: 2000",
+        ""
+      ],
+      "choices": [
+        "I'm ready!",
+        "How do I find Borzukhan's base?",
+        "Why didn't you locate the base yourselves?"
+      ],
+      "llm_response": "REASONING: We\u2019ve secured the key operational details: we\u2019ll be equipped (laser gun, grenades, and a remote explosive), and the mission expects us to identify the base\u2019s weakest point to plant the device. We also have the likely search zones (mountains north, forest southwest, coastal grotto east to caves). Before committing, the only remaining dialogue option is why they couldn\u2019t locate it themselves\u2014this might reveal crucial constraints (e.g., Peleng counterintelligence, decoys, sensor jamming, patrol patterns, disguised entrances) that could directly inform our approach and help avoid traps or time-wasting routes. Since it\u2019s low risk to ask now and can yield extra intel, it\u2019s the best choice before we say we\u2019re ready.\n\nACTION: 3",
+      "reasoning": "We\u2019ve secured the key operational details: we\u2019ll be equipped (laser gun, grenades, and a remote explosive), and the mission expects us to identify the base\u2019s weakest point to plant the device. We also have the likely search zones (mountains north, forest southwest, coastal grotto east to caves). Before committing, the only remaining dialogue option is why they couldn\u2019t locate it themselves\u2014this might reveal crucial constraints (e.g., Peleng counterintelligence, decoys, sensor jamming, patrol patterns, disguised entrances) that could directly inform our approach and help avoid traps or time-wasting routes. Since it\u2019s low risk to ask now and can yield extra intel, it\u2019s the best choice before we say we\u2019re ready.",
+      "chosen_index": 3,
+      "input_tokens": 1761,
+      "output_tokens": 209,
+      "was_auto": false
+    },
+    {
+      "step": 4,
+      "location_text": "- Of course, we could have sent our people in advance, so that they located the base, but we do not have any agents who'd be experienced enough to do the job. We fear that an inexperienced trooper could accidentally frighten Borzukhan off. If he learns that we have detected his base, he will surely relocate it somewhere else, quite possibly onto another planet altogether, and we will have to look for him again. I hope you understand how important your mission is. By the way, we have some data about the possible locations of the lyakusha's base. I'll mark those up on your map.",
+      "params": [
+        "You are totally healthy",
+        "Your money: 2000",
+        ""
+      ],
+      "choices": [
+        "I'm ready!",
+        "How do I destroy the base?",
+        "How do I find Borzukhan's base?"
+      ],
+      "llm_response": "REASONING: We\u2019ve extracted all critical briefing intel: three likely search areas are marked on our map; we\u2019re being supplied with a laser gun, grenades, and a remote explosive device; the objective is to locate the base, find its weakest point (likely reactor/structural vulnerability) and plant the explosive, while preventing Borzukhan from escaping and preferably capturing him alive for a bonus. Further questioning would just repeat earlier info. The best move now is to deploy, keeping in mind past lessons: prioritize stealth and positional control, avoid loud explosive use early, and expect reinforcements after any noisy action.\n\nACTION: 1",
+      "reasoning": "We\u2019ve extracted all critical briefing intel: three likely search areas are marked on our map; we\u2019re being supplied with a laser gun, grenades, and a remote explosive device; the objective is to locate the base, find its weakest point (likely reactor/structural vulnerability) and plant the explosive, while preventing Borzukhan from escaping and preferably capturing him alive for a bonus. Further questioning would just repeat earlier info. The best move now is to deploy, keeping in mind past lessons: prioritize stealth and positional control, avoid loud explosive use early, and expect reinforcements after any noisy action.",
+      "chosen_index": 1,
+      "input_tokens": 2114,
+      "output_tokens": 156,
+      "was_auto": false
+    },
+    {
+      "step": 5,
+      "location_text": "- Excellent! But before you start off, you must receive your munitions. You are not going to fight Borzukhan empty-handed, are you? So: you will get an explosive charge to destroy the base itself, a laser gun and several grenades. Unfortunately our arms supply is rather limited, since the pilot who navigated the transport that was supposed to deliver the arms here, turned out to be a Peleng hallucinogen addict and ended up colliding with five asteroids at once. I hope you are not hooked on anything like that, are you?\r\nIt's a long distance to walk, so we will give you a light flyer. It is pretty small and sufficiently shielded, so the enemy is not likely to detect you, unless you expose yourself. We will show you a picture of Borzukhan, so that you recognise him. That's it. Be careful and attentive, and good luck!",
+      "params": [
+        "You are totally healthy",
+        "Your money: 2000",
+        ""
+      ],
+      "choices": [
+        "Climb into the flyer"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 6,
+      "location_text": "You are sitting in a light flyer and contemplate where you should go.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        ""
+      ],
+      "choices": [
+        "Go north, to the mountains",
+        "Circle over the camp and look around",
+        "Go southwest, to the forest",
+        "Go to the east, to the sea"
+      ],
+      "llm_response": "REASONING: We have three marked likely zones (mountains north, forest southwest, sea/grotto east). From prior experience, committing blindly can waste time in misleading routes (the coastal/grotto path especially can loop/dead-end), and loud contact later is deadly\u2014so the best early-game advantage is information. Circling over the camp is a low-risk reconnaissance move: it may reveal visual cues (smoke, unnatural structures, patrol activity, trails) pointing to the correct direction before we commit to a long flight into one region. With the flyer in perfect condition and no current threat, gathering intel first increases our odds of choosing the true lead (likely mountains/caves) without prematurely tipping off Borzukhan.\n\nACTION: 2",
+      "reasoning": "We have three marked likely zones (mountains north, forest southwest, sea/grotto east). From prior experience, committing blindly can waste time in misleading routes (the coastal/grotto path especially can loop/dead-end), and loud contact later is deadly\u2014so the best early-game advantage is information. Circling over the camp is a low-risk reconnaissance move: it may reveal visual cues (smoke, unnatural structures, patrol activity, trails) pointing to the correct direction before we commit to a long flight into one region. With the flyer in perfect condition and no current threat, gathering intel first increases our odds of choosing the true lead (likely mountains/caves) without prematurely tipping off Borzukhan.",
+      "chosen_index": 2,
+      "input_tokens": 2365,
+      "output_tokens": 320,
+      "was_auto": false
+    },
+    {
+      "step": 7,
+      "location_text": "You circled around the camp. To the north you saw a high range. To the west and south of the camp there was an endless swamp. In the south-west there was a forest. When you turned east you saw the ocean and the rocky coast. \"So where do I go from here?\" - you thought to yourself. Suddenly in the south, right in the middle of the swamp you noticed a thin trace of smoke",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        ""
+      ],
+      "choices": [
+        "Go southwest, to the forest",
+        "Fly to the smoke trace",
+        "Go to the east, to the sea",
+        "Go north, to the mountains"
+      ],
+      "llm_response": "REASONING: We\u2019ve now gained new, high-value intel that wasn\u2019t in the original three \u201cmost likely\u201d areas: a thin trace of smoke rising from the middle of the swamp to the south. That\u2019s a strong anomaly on an otherwise empty swamp and could indicate an outpost, a concealed entrance, a crashed craft, or activity tied to the base (supply camp, generator exhaust, patrol bivouac). Since the mission is time-sensitive (we don\u2019t want Borzukhan alerted and relocating) and because we\u2019re currently safe with a fully functional flyer, the best play is to investigate this lead first\u2014but carefully. We can approach using the flyer to recon from range/altitude and avoid committing to a fight or noisy engagement. If it\u2019s a decoy or unrelated, we can disengage quickly and still proceed to the mountains/sea/forest afterward with minimal lost time.\n\nACTION: 2",
+      "reasoning": "We\u2019ve now gained new, high-value intel that wasn\u2019t in the original three \u201cmost likely\u201d areas: a thin trace of smoke rising from the middle of the swamp to the south. That\u2019s a strong anomaly on an otherwise empty swamp and could indicate an outpost, a concealed entrance, a crashed craft, or activity tied to the base (supply camp, generator exhaust, patrol bivouac). Since the mission is time-sensitive (we don\u2019t want Borzukhan alerted and relocating) and because we\u2019re currently safe with a fully functional flyer, the best play is to investigate this lead first\u2014but carefully. We can approach using the flyer to recon from range/altitude and avoid committing to a fight or noisy engagement. If it\u2019s a decoy or unrelated, we can disengage quickly and still proceed to the mountains/sea/forest afterward with minimal lost time.",
+      "chosen_index": 2,
+      "input_tokens": 2708,
+      "output_tokens": 258,
+      "was_auto": false
+    },
+    {
+      "step": 8,
+      "location_text": "You followed the smoke and soon beheld a group of creatures gathered around a fire. From this distance you still could not make out who they were or what they were doing.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        ""
+      ],
+      "choices": [
+        "Land carefully not far from the fire",
+        "Fly closer to the fire and shoot from the laser gun",
+        "Fly closer to the fire and throw a grenade into the crowd.",
+        "Turn back and fly away",
+        "Land the flyer by the fire"
+      ],
+      "llm_response": "REASONING: We\u2019ve found an unexpected group around a fire in the swamp; we still don\u2019t know if they\u2019re Peleng scouts, locals, or something unrelated. Our mission priority is to locate the base without alarming Borzukhan into relocating, so opening with loud violence (laser fire from the air or, worse, a grenade) repeats the earlier mistake: it broadcasts our presence, risks drawing reinforcements, and can turn a potentially informative encounter into a chaotic firefight. We\u2019re totally healthy, but we only have 10 charges and 2 grenades\u2014resources are limited and should be saved for the base or an unavoidable emergency.\n\nThe best approach is controlled reconnaissance: land carefully at a safe distance, keep the flyer as an escape option, and assess who they are and what they\u2019re doing before committing to any action. This preserves stealth, keeps options open (observe, bypass, or engage on favorable terms), and minimizes the chance of tipping off Borzukhan.\n\nACTION: 1",
+      "reasoning": "We\u2019ve found an unexpected group around a fire in the swamp; we still don\u2019t know if they\u2019re Peleng scouts, locals, or something unrelated. Our mission priority is to locate the base without alarming Borzukhan into relocating, so opening with loud violence (laser fire from the air or, worse, a grenade) repeats the earlier mistake: it broadcasts our presence, risks drawing reinforcements, and can turn a potentially informative encounter into a chaotic firefight. We\u2019re totally healthy, but we only have 10 charges and 2 grenades\u2014resources are limited and should be saved for the base or an unavoidable emergency.\n\nThe best approach is controlled reconnaissance: land carefully at a safe distance, keep the flyer as an escape option, and assess who they are and what they\u2019re doing before committing to any action. This preserves stealth, keeps options open (observe, bypass, or engage on favorable terms), and minimizes the chance of tipping off Borzukhan.",
+      "chosen_index": 1,
+      "input_tokens": 3052,
+      "output_tokens": 269,
+      "was_auto": false
+    },
+    {
+      "step": 9,
+      "location_text": "You carefully landed the flyer not far from the fire, behind a huge rock, where no one could see it. No you could see a group of five very unfriendly looking Pelengs sitting by the fire and discussing something. By their side there lay a Human - motionless. He looks like he's been stunned with a powerful stunner charge.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        ""
+      ],
+      "choices": [
+        "Fly away",
+        "Listen to the Peleng conversation",
+        "Shoot the Pelengs from the laser gun",
+        "Throw a grenade into the Pelengs"
+      ],
+      "llm_response": "REASONING: We\u2019ve achieved a strong stealth position: flyer hidden behind a rock, we\u2019re healthy, and we have limited ammo (10 laser charges) and only 2 grenades that are best saved for emergencies or the base itself. The scene includes 5 Pelengs and a stunned Human\u2014this suggests they may have captured/scouted someone (possibly an agent or a lost trooper) and could be discussing the location of Borzukhan\u2019s base, patrol routes, passwords, or how to transport the prisoner. That information is far more valuable than an immediate firefight.\n\nAttacking now (laser or grenade) is risky and noisy, could alert other patrols, and may cause the Pelengs to scatter\u2014exactly what we want to avoid if we\u2019re trying not to tip off Borzukhan. Flying away abandons a prime intelligence opportunity and leaves a Human captive who might later be used to raise an alarm.\n\nBest move: listen first to extract actionable intel (base direction, entrances, codes, guard numbers). We can decide on a quiet takedown/rescue afterward once we know what we\u2019re dealing with.\n\nACTION: 2",
+      "reasoning": "We\u2019ve achieved a strong stealth position: flyer hidden behind a rock, we\u2019re healthy, and we have limited ammo (10 laser charges) and only 2 grenades that are best saved for emergencies or the base itself. The scene includes 5 Pelengs and a stunned Human\u2014this suggests they may have captured/scouted someone (possibly an agent or a lost trooper) and could be discussing the location of Borzukhan\u2019s base, patrol routes, passwords, or how to transport the prisoner. That information is far more valuable than an immediate firefight.\n\nAttacking now (laser or grenade) is risky and noisy, could alert other patrols, and may cause the Pelengs to scatter\u2014exactly what we want to avoid if we\u2019re trying not to tip off Borzukhan. Flying away abandons a prime intelligence opportunity and leaves a Human captive who might later be used to raise an alarm.\n\nBest move: listen first to extract actionable intel (base direction, entrances, codes, guard numbers). We can decide on a quiet takedown/rescue afterward once we know what we\u2019re dealing with.",
+      "chosen_index": 2,
+      "input_tokens": 3431,
+      "output_tokens": 275,
+      "was_auto": false
+    },
+    {
+      "step": 10,
+      "location_text": "You pricked up your ears and tried to make out what the Pelengs were talking about. By the fragments of their conversation you understood you were in the right: the bunch gathered by the fire was Borzukhan's pirate squad, hailing back from \"business\" and intending to deliver the prisoner to the base.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        ""
+      ],
+      "choices": [
+        "Continue listening",
+        "Fly away",
+        "Shoot the pirates from the laser gun",
+        "Throw a grenade into the pirates"
+      ],
+      "llm_response": "REASONING: We\u2019ve confirmed these are Borzukhan\u2019s pirates and they\u2019re about to take the stunned Human to the base. That creates a major opportunity: if we learn *when* they leave, *which direction/route* they\u2019ll take, and any details they mention about the base (mountains/forest/coast, entrances, passwords, guard rotations), we can either (a) shadow them at a safe distance to get led straight to the base, or (b) ambush them later at a place of our choosing\u2014without broadcasting our presence.\n\nEngaging now (laser or grenade) is exactly the kind of loud contact that can cause survivors to warn the base and/or make the squad scatter, losing the trail. Flying away wastes the best lead we\u2019ve had so far. Since we\u2019re still concealed and not under time pressure in this exact moment, the optimal step is to keep gathering intelligence until we have enough to act decisively.\n\nACTION: 1",
+      "reasoning": "We\u2019ve confirmed these are Borzukhan\u2019s pirates and they\u2019re about to take the stunned Human to the base. That creates a major opportunity: if we learn *when* they leave, *which direction/route* they\u2019ll take, and any details they mention about the base (mountains/forest/coast, entrances, passwords, guard rotations), we can either (a) shadow them at a safe distance to get led straight to the base, or (b) ambush them later at a place of our choosing\u2014without broadcasting our presence.\n\nEngaging now (laser or grenade) is exactly the kind of loud contact that can cause survivors to warn the base and/or make the squad scatter, losing the trail. Flying away wastes the best lead we\u2019ve had so far. Since we\u2019re still concealed and not under time pressure in this exact moment, the optimal step is to keep gathering intelligence until we have enough to act decisively.",
+      "chosen_index": 1,
+      "input_tokens": 3827,
+      "output_tokens": 313,
+      "was_auto": false
+    },
+    {
+      "step": 11,
+      "location_text": "You continued listening to the pirate conversation and heard one of them complain about the habit of their boss Borzukhan spend time all by himself in a small cabin somewhere in the woods to the west. The pirate was sure that this habit was not going to do the boss any good, and you couldn't but agree with him, especially considering the fact that this cretin blurted out a bunch of orientation points, knowing which finding the lyakusha's cabin was a piece of cake!",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        "",
+        "You know about the cabin in the forest"
+      ],
+      "choices": [
+        "Shoot the pirates from the laser gun",
+        "Throw a grenade into the pirates",
+        "Fly away"
+      ],
+      "llm_response": "REASONING: We\u2019ve extracted the most valuable thing this encounter could give us: precise orientation points to Borzukhan\u2019s private cabin in the western woods. That\u2019s a rare, high-leverage opportunity because Borzukhan is described as being there alone\u2014meaning we can potentially capture him alive with far less risk than storming the base first, and without triggering a full-base alarm.\n\nThe remaining options are all \u201cnoisy\u201d: attacking 5 pirates with a laser risks at least one surviving long enough to flee and warn the base (exactly what Earth feared\u2014Borzkhan relocating). A grenade is even worse: very loud, likely to kill the stunned prisoner, and guaranteed to advertise our presence. Also, we only have 2 grenades and should preserve them for emergencies/escape or a critical base weak-point situation.\n\nSo the best strategic play is to disengage now, keep our stealth intact, and head straight for the cabin lead. Once Borzukhan is secured (ideally alive), destroying the base becomes much safer and we also prevent him from escaping.\n\nACTION: 3",
+      "reasoning": "We\u2019ve extracted the most valuable thing this encounter could give us: precise orientation points to Borzukhan\u2019s private cabin in the western woods. That\u2019s a rare, high-leverage opportunity because Borzukhan is described as being there alone\u2014meaning we can potentially capture him alive with far less risk than storming the base first, and without triggering a full-base alarm.\n\nThe remaining options are all \u201cnoisy\u201d: attacking 5 pirates with a laser risks at least one surviving long enough to flee and warn the base (exactly what Earth feared\u2014Borzkhan relocating). A grenade is even worse: very loud, likely to kill the stunned prisoner, and guaranteed to advertise our presence. Also, we only have 2 grenades and should preserve them for emergencies/escape or a critical base weak-point situation.\n\nSo the best strategic play is to disengage now, keep our stealth intact, and head straight for the cabin lead. Once Borzukhan is secured (ideally alive), destroying the base becomes much safer and we also prevent him from escaping.",
+      "chosen_index": 3,
+      "input_tokens": 4223,
+      "output_tokens": 493,
+      "was_auto": false
+    },
+    {
+      "step": 12,
+      "location_text": "You turned your flyer and flew away not wanting to mess with this bunch.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        "",
+        "You know about the cabin in the forest"
+      ],
+      "choices": [
+        "Next"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 13,
+      "location_text": "You are sitting in a light flyer and contemplate where you should go.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        "",
+        "You know about the cabin in the forest"
+      ],
+      "choices": [
+        "Go southwest, to the forest",
+        "Go north, to the mountains",
+        "Go to the east, to the sea"
+      ],
+      "llm_response": "REASONING: We\u2019ve gained a concrete, actionable lead: Borzukhan has a habit of spending time alone in a small cabin somewhere in the woods to the west, and we have enough orientation points that finding it should be straightforward. That is strategically superior to randomly searching mountains or the sea route because it offers a chance to secure the main target (preferably alive for the bonus) with minimal resistance, before we attempt the higher-risk task of infiltrating and sabotaging the base. Capturing Borzukhan first also reduces the chance he escapes or relocates once the base is threatened. With our flyer intact and full health, the best next move is to head straight to the forest and locate the cabin, maintaining stealth and conserving grenades for emergencies.\n\nACTION: 1",
+      "reasoning": "We\u2019ve gained a concrete, actionable lead: Borzukhan has a habit of spending time alone in a small cabin somewhere in the woods to the west, and we have enough orientation points that finding it should be straightforward. That is strategically superior to randomly searching mountains or the sea route because it offers a chance to secure the main target (preferably alive for the bonus) with minimal resistance, before we attempt the higher-risk task of infiltrating and sabotaging the base. Capturing Borzukhan first also reduces the chance he escapes or relocates once the base is threatened. With our flyer intact and full health, the best next move is to head straight to the forest and locate the cabin, maintaining stealth and conserving grenades for emergencies.",
+      "chosen_index": 1,
+      "input_tokens": 4561,
+      "output_tokens": 188,
+      "was_auto": false
+    },
+    {
+      "step": 14,
+      "location_text": "You are circling over the woods. From this height you cannot see anything suspicious. Maybe you should descend?",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        "",
+        "You know about the cabin in the forest"
+      ],
+      "choices": [
+        "Fly somewhere else",
+        "Land and look for the lyakusha's cabin"
+      ],
+      "llm_response": "REASONING: Our key advantage right now is the intel about Borzukhan\u2019s solitary cabin in these woods. From high altitude we can\u2019t spot anything, and if we \u201cfly somewhere else\u201d we effectively throw away the best lead we\u2019ve earned\u2014returning to broad, low-probability searching (mountains/sea) and giving Borzukhan time to move. The mission also prefers capturing him alive; the cabin is the most favorable setting for that (likely fewer guards, controlled engagement). Therefore we should descend, land, and begin a ground search for the cabin, keeping the flyer concealed and staying alert for patrols so we don\u2019t blunder into a noisy fight.\n\nACTION: 2",
+      "reasoning": "Our key advantage right now is the intel about Borzukhan\u2019s solitary cabin in these woods. From high altitude we can\u2019t spot anything, and if we \u201cfly somewhere else\u201d we effectively throw away the best lead we\u2019ve earned\u2014returning to broad, low-probability searching (mountains/sea) and giving Borzukhan time to move. The mission also prefers capturing him alive; the cabin is the most favorable setting for that (likely fewer guards, controlled engagement). Therefore we should descend, land, and begin a ground search for the cabin, keeping the flyer concealed and staying alert for patrols so we don\u2019t blunder into a noisy fight.",
+      "chosen_index": 2,
+      "input_tokens": 4833,
+      "output_tokens": 187,
+      "was_auto": false
+    },
+    {
+      "step": 15,
+      "location_text": "Remembering the conversation of the pirates that you'd overheard, you decided to find the cabin, which, they claimed, Lyakusha Borzukhan liked to spend his time in. Since you knew all the main orientation points, the task proved to be quite easy. After several minutes of cautious wandering around the forest you stepped onto a meadow, in the middle of which you indeed saw a wooden cabin with glassed windows. Looks like even these days and even among the pirates there are still folks who like living at one with nature!",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        "",
+        "You know about the cabin in the forest"
+      ],
+      "choices": [
+        "Throw a grenade into the window",
+        "Kick the door in and burst into the house with your gun ready",
+        "Walk up to the cabin and knock politely",
+        "Sneak up to the cabin and carefully look in the window",
+        "Go back to the flyer"
+      ],
+      "llm_response": "REASONING: The cabin is our best chance to secure Borzukhan with minimal risk and ideally take him alive. Right now we don\u2019t even know if he\u2019s inside, alone, armed, or if there are additional pirates nearby. Acting loudly (grenade or kicking the door) repeats the earlier strategic mistake: it creates noise, risks killing Borzukhan (failing the bonus and possibly the \u201cdon\u2019t let him escape\u201d condition if he flees in the confusion), and could alert the base if anyone is in radio range. Knocking politely is also risky because it gives him time to grab a weapon, use a back exit, or set an ambush.\n\nThe best tactical step is to gather information first while we still have stealth: sneak up and look through a window to confirm presence, numbers, posture, and possible escape routes. Then we can choose a controlled entry/ambush plan that maximizes capture chances and minimizes alarm.\n\nACTION: 4",
+      "reasoning": "The cabin is our best chance to secure Borzukhan with minimal risk and ideally take him alive. Right now we don\u2019t even know if he\u2019s inside, alone, armed, or if there are additional pirates nearby. Acting loudly (grenade or kicking the door) repeats the earlier strategic mistake: it creates noise, risks killing Borzukhan (failing the bonus and possibly the \u201cdon\u2019t let him escape\u201d condition if he flees in the confusion), and could alert the base if anyone is in radio range. Knocking politely is also risky because it gives him time to grab a weapon, use a back exit, or set an ambush.\n\nThe best tactical step is to gather information first while we still have stealth: sneak up and look through a window to confirm presence, numbers, posture, and possible escape routes. Then we can choose a controlled entry/ambush plan that maximizes capture chances and minimizes alarm.",
+      "chosen_index": 4,
+      "input_tokens": 5214,
+      "output_tokens": 286,
+      "was_auto": false
+    },
+    {
+      "step": 16,
+      "location_text": "You crawled up to the window and cautiously peeked inside. In the armchair right in the middle of an expensively furnished room sat Lyakusha Borzukhan himself. Apparently he didn't notice you.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        "",
+        "You know about the cabin in the forest"
+      ],
+      "choices": [
+        "Shoot Borzukhan from the laser gun",
+        "Carefully move away from the cabin and go back to the flyer",
+        "Shoot the stunner through the window",
+        "Carefully step away from the window"
+      ],
+      "llm_response": "REASONING: We\u2019ve confirmed the key fact: Borzukhan is inside the cabin and hasn\u2019t noticed us. That\u2019s the best possible setup for the \u201ctake him alive\u201d objective, and also the safest moment to control the encounter on our terms. Shooting him now (1) guarantees we lose the live-capture bonus and may create noise that alerts nearby patrols or the base (and if he has any alarm/radio setup, even a brief shot could escalate things). Going all the way back to the flyer (2) throws away this perfect advantage and risks losing him if he leaves the cabin.\n\nThe correct next step is to break contact quietly without committing to lethal force\u2014step away from the window (4) so we can choose a better capture approach (controlled entry, positioning to cover exits, and minimizing noise). Keeping stealth for the next move maximizes our chance to capture him alive and prevent escape.\n\nACTION: 4",
+      "reasoning": "We\u2019ve confirmed the key fact: Borzukhan is inside the cabin and hasn\u2019t noticed us. That\u2019s the best possible setup for the \u201ctake him alive\u201d objective, and also the safest moment to control the encounter on our terms. Shooting him now (1) guarantees we lose the live-capture bonus and may create noise that alerts nearby patrols or the base (and if he has any alarm/radio setup, even a brief shot could escalate things). Going all the way back to the flyer (2) throws away this perfect advantage and risks losing him if he leaves the cabin.\n\nThe correct next step is to break contact quietly without committing to lethal force\u2014step away from the window (4) so we can choose a better capture approach (controlled entry, positioning to cover exits, and minimizing noise). Keeping stealth for the next move maximizes our chance to capture him alive and prevent escape.",
+      "chosen_index": 4,
+      "input_tokens": 5565,
+      "output_tokens": 328,
+      "was_auto": false
+    },
+    {
+      "step": 17,
+      "location_text": "You went back to the forest cabin.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        "",
+        "You know about the cabin in the forest"
+      ],
+      "choices": [
+        "Throw a grenade into the window",
+        "Go back to the flyer",
+        "Kick the door in and burst into the house with your gun ready",
+        "Walk up to the cabin and knock politely"
+      ],
+      "llm_response": "REASONING: Borzukhan is confirmed inside and unaware (from our window peek earlier). Our priority is to prevent his escape and ideally take him alive for the bonus; also we must avoid loud, indiscriminate actions that could kill him or trigger a broader alarm.\n\nOption 1 (grenade) is the worst: high chance of killing Borzukhan and/or destroying evidence, plus it\u2019s extremely loud and wastes scarce grenades. Option 2 (back to flyer) risks losing the best moment\u2014he could leave the cabin, and we\u2019d be back to searching. Option 4 (knock politely) gives him time to grab a weapon, set an ambush, or slip out a back exit.\n\nOption 3 (kick the door in and burst in with gun ready) maximizes surprise and control. Even if we want him alive, the best way is to get close fast, cover him immediately, and demand surrender before he can react or run. We can choose not to fire unless absolutely necessary.\n\nACTION: 3",
+      "reasoning": "Borzukhan is confirmed inside and unaware (from our window peek earlier). Our priority is to prevent his escape and ideally take him alive for the bonus; also we must avoid loud, indiscriminate actions that could kill him or trigger a broader alarm.\n\nOption 1 (grenade) is the worst: high chance of killing Borzukhan and/or destroying evidence, plus it\u2019s extremely loud and wastes scarce grenades. Option 2 (back to flyer) risks losing the best moment\u2014he could leave the cabin, and we\u2019d be back to searching. Option 4 (knock politely) gives him time to grab a weapon, set an ambush, or slip out a back exit.\n\nOption 3 (kick the door in and burst in with gun ready) maximizes surprise and control. Even if we want him alive, the best way is to get close fast, cover him immediately, and demand surrender before he can react or run. We can choose not to fire unless absolutely necessary.",
+      "chosen_index": 3,
+      "input_tokens": 5881,
+      "output_tokens": 358,
+      "was_auto": false
+    },
+    {
+      "step": 18,
+      "location_text": "You kicked the door in and burst into the cabin. Borzukhan jumped up from his armchair searching frantically for his laser gun, that lay nearby.",
+      "params": [
+        "You are totally healthy",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 10 charges",
+        "You've got 2 grenades",
+        "",
+        "You know about the cabin in the forest"
+      ],
+      "choices": [
+        "Shoot the laser gun"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 19,
+      "location_text": "You shot at Borzukhan from your laser gun, but he ducked and the shot went past him. The Lyakusha reached quickly for his own weapon. But you aimed another time and shot him again. The Lyakusha dropped to the floor but just before he died he still managed to shoot back at you...",
+      "params": [
+        "You are wounded",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 8 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Next"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 20,
+      "location_text": "Fortunately enough he wasn't that good a shot, and you were only scratched. Oh well, so much for Borzukhan, now it's time for his base.",
+      "params": [
+        "You are wounded",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 8 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Go back to the flyer"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 21,
+      "location_text": "You are sitting in a light flyer and contemplate where you should go.",
+      "params": [
+        "You are wounded",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 8 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Go back to the camp and get some medical assistance",
+        "Go north, to the mountains",
+        "Go to the east, to the sea"
+      ],
+      "llm_response": "REASONING: Current state: Borzukhan is already dead (so the live-capture bonus is gone), but the primary mission\u2014locate and destroy the base\u2014still stands. I\u2019m wounded and already down to 8 laser charges, with only 2 grenades that we should conserve for emergencies or a last-resort escape. Previous failures showed the critical pattern: pushing into the base while low on health leads to unavoidable deaths, especially if any loud action triggers reinforcements or if we\u2019re forced into close-quarters fighting.\n\nGiven the flyer is in perfect condition, the safest, most mission-consistent move is to return to camp for medical assistance now, restoring survivability before attempting the higher-risk search/infiltration (likely mountains/caves or coastal route). Healing is not abandoning the mission; it\u2019s necessary preparation to ensure we can complete the sabotage without dying.\n\nACTION: 1",
+      "reasoning": "Current state: Borzukhan is already dead (so the live-capture bonus is gone), but the primary mission\u2014locate and destroy the base\u2014still stands. I\u2019m wounded and already down to 8 laser charges, with only 2 grenades that we should conserve for emergencies or a last-resort escape. Previous failures showed the critical pattern: pushing into the base while low on health leads to unavoidable deaths, especially if any loud action triggers reinforcements or if we\u2019re forced into close-quarters fighting.\n\nGiven the flyer is in perfect condition, the safest, most mission-consistent move is to return to camp for medical assistance now, restoring survivability before attempting the higher-risk search/infiltration (likely mountains/caves or coastal route). Healing is not abandoning the mission; it\u2019s necessary preparation to ensure we can complete the sabotage without dying.",
+      "chosen_index": 1,
+      "input_tokens": 6214,
+      "output_tokens": 255,
+      "was_auto": false
+    },
+    {
+      "step": 22,
+      "location_text": "You decided to go back to the camp to get some treatment. You were taken to a medical post where they quickly treated your wounds - unfortunately you didn't have the time for proper treatment, you still had to take care of Borzukhan's base.",
+      "params": [
+        "You got a couple of scratches",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 8 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Next"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 23,
+      "location_text": "You are sitting in a light flyer and contemplate where you should go.",
+      "params": [
+        "You got a couple of scratches",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 8 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Go to the east, to the sea",
+        "Go north, to the mountains"
+      ],
+      "llm_response": "REASONING: We\u2019ve eliminated Borzukhan, but the main objective remains: find and destroy the secret base by planting the remote explosive at its weakest spot. My current condition is only \u201ca couple of scratches\u201d, so detouring for help isn\u2019t necessary anymore; we should move quickly before patrol patterns change and the trail goes cold. Between the two remaining search directions, the coastal route to the east is historically the least reliable: the grotto/cave approach tends to loop or dead-end and wastes time. The mountains to the north are the more promising lead for a real base entrance and also fit the idea of a hidden, defensible pirate facility. With limited ammo (8 charges) and only 2 grenades, we should choose the route that\u2019s most likely to get us to the base efficiently and avoid prolonged wandering and attrition. Therefore, heading north to the mountains is the best strategic choice.\n\nACTION: 2",
+      "reasoning": "We\u2019ve eliminated Borzukhan, but the main objective remains: find and destroy the secret base by planting the remote explosive at its weakest spot. My current condition is only \u201ca couple of scratches\u201d, so detouring for help isn\u2019t necessary anymore; we should move quickly before patrol patterns change and the trail goes cold. Between the two remaining search directions, the coastal route to the east is historically the least reliable: the grotto/cave approach tends to loop or dead-end and wastes time. The mountains to the north are the more promising lead for a real base entrance and also fit the idea of a hidden, defensible pirate facility. With limited ammo (8 charges) and only 2 grenades, we should choose the route that\u2019s most likely to get us to the base efficiently and avoid prolonged wandering and attrition. Therefore, heading north to the mountains is the best strategic choice.",
+      "chosen_index": 2,
+      "input_tokens": 6506,
+      "output_tokens": 254,
+      "was_auto": false
+    },
+    {
+      "step": 24,
+      "location_text": "You circled over the mountains north of the camp and soon detected a cave opening.",
+      "params": [
+        "You got a couple of scratches",
+        "Flyer is in perfect conditions",
+        "Your money: 2000",
+        "You've got a laser gun with 8 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Fly away",
+        "Fly back to the cave"
+      ],
+      "llm_response": "REASONING: The mission is still incomplete: we must locate and destroy the Peleng base by planting the remote explosive at its weakest point. We\u2019re in the mountains (a prime suspected location) and have just found a cave opening\u2014this is the first concrete, base-like lead since leaving camp. With the flyer in perfect condition, we can approach, land, and recon while keeping an easy escape option. Choosing to fly away would discard the strongest lead and effectively stall the mission with no better alternative. Even with limited resources (8 laser charges, 2 grenades) and minor injuries, the correct move is to investigate the cave carefully and conserve explosives for emergencies or the sabotage point.\n\nACTION: 2",
+      "reasoning": "The mission is still incomplete: we must locate and destroy the Peleng base by planting the remote explosive at its weakest point. We\u2019re in the mountains (a prime suspected location) and have just found a cave opening\u2014this is the first concrete, base-like lead since leaving camp. With the flyer in perfect condition, we can approach, land, and recon while keeping an easy escape option. Choosing to fly away would discard the strongest lead and effectively stall the mission with no better alternative. Even with limited resources (8 laser charges, 2 grenades) and minor injuries, the correct move is to investigate the cave carefully and conserve explosives for emergencies or the sabotage point.",
+      "chosen_index": 2,
+      "input_tokens": 6798,
+      "output_tokens": 175,
+      "was_auto": false
+    },
+    {
+      "step": 25,
+      "location_text": "You headed your flyer to the cave, when suddenly a group of pirates with laser guns ran out and opened fire at you!",
+      "params": [
+        "You are slightly wounded",
+        "Flyer is slightly scratched",
+        "Your money: 2000",
+        "You've got a laser gun with 8 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Shoot the guards from the laser gun",
+        "Throw a grenade into the guards",
+        "Turn back and fly away"
+      ],
+      "llm_response": "REASONING: We\u2019ve reached what is very likely the base entrance, and the pirates have already initiated a firefight\u2014so the \u201cavoid noise to prevent alerting the base\u201d constraint is largely gone at this moment. Still, grenades are scarce (only 2) and are our emergency lever for later: breaking out of an ambush in a corridor, forcing space, or dealing with a clustered group at a critical moment. Using one now, outside the cave, is wasteful unless we\u2019re about to be overwhelmed.\n\nRetreating (flying away) preserves resources, but it also concedes the entrance and risks taking more damage while disengaging; plus we\u2019ll have to re-approach and likely face the same guards again, potentially with reinforcements ready.\n\nThe best balanced move is controlled force: return fire with the laser gun and try to eliminate the guards quickly while keeping grenades in reserve for the much more dangerous close-quarters fights deeper inside. With 8 charges, we should focus on accurate shots, prioritizing any pirate who looks closest to cover/escape (so none run back in to warn others further).\n\nACTION: 1",
+      "reasoning": "We\u2019ve reached what is very likely the base entrance, and the pirates have already initiated a firefight\u2014so the \u201cavoid noise to prevent alerting the base\u201d constraint is largely gone at this moment. Still, grenades are scarce (only 2) and are our emergency lever for later: breaking out of an ambush in a corridor, forcing space, or dealing with a clustered group at a critical moment. Using one now, outside the cave, is wasteful unless we\u2019re about to be overwhelmed.\n\nRetreating (flying away) preserves resources, but it also concedes the entrance and risks taking more damage while disengaging; plus we\u2019ll have to re-approach and likely face the same guards again, potentially with reinforcements ready.\n\nThe best balanced move is controlled force: return fire with the laser gun and try to eliminate the guards quickly while keeping grenades in reserve for the much more dangerous close-quarters fights deeper inside. With 8 charges, we should focus on accurate shots, prioritizing any pirate who looks closest to cover/escape (so none run back in to warn others further).",
+      "chosen_index": 1,
+      "input_tokens": 7065,
+      "output_tokens": 443,
+      "was_auto": false
+    },
+    {
+      "step": 26,
+      "location_text": "You started firing at the guards from the laser gun, but they were all well hidden behind the rocks and returned the fire. Finally you managed to wipe them all out but you spent too many rounds. Besides your flyer was seriously damaged, and you yourself were wounded too.",
+      "params": [
+        "You are wounded",
+        "The flyer is seriously damaged",
+        "Your money: 2000",
+        "You've got a laser gun with 2 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Land the flyer and enter the cave"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 27,
+      "location_text": "You landed the flyer behind a rock and cautiously stepped into the cave. In front of you there was a long corridor...",
+      "params": [
+        "You are wounded",
+        "The flyer is seriously damaged",
+        "Your money: 2000",
+        "You've got a laser gun with 2 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Next"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    },
+    {
+      "step": 28,
+      "location_text": "You went down the corridor. Several minutes later you ran into a ramification. One corridor on the left, one on the right. Nearby there was a door. Putting you ear thereto you heard somebody talk and laugh behind the door.",
+      "params": [
+        "You are wounded",
+        "The flyer is seriously damaged",
+        "Your money: 2000",
+        "You've got a laser gun with 2 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Go left",
+        "Go back to the exit",
+        "Set the explosive and leave",
+        "Go right",
+        "Enter the door"
+      ],
+      "llm_response": "REASONING: We\u2019re inside the base and still haven\u2019t identified the \u201cweakest spot\u201d (typically a reactor/power unit). Planting the explosive here (choice 3) is a gamble and risks failing the mission if this isn\u2019t the critical point. Going back to the exit (2) also doesn\u2019t solve the main objective and, with the flyer seriously damaged, repeated travel increases the chance of getting stranded or finished off.\n\nWe\u2019re wounded and nearly out of laser charges (only 2), so we must avoid unnecessary fights. The door with talking/laughing likely leads to a canteen/barracks-type room with multiple pirates\u2014entering (5) is the most likely way to get drawn into a numbers disadvantage with low ammo.\n\nSo the best play is to continue searching for the reactor/weak point while minimizing contact: take a corridor rather than opening a \u201cpeople inside\u201d door. Based on what we\u2019ve learned in previous runs, the right-hand route is more likely to lead toward service areas and ultimately the reactor/optimal sabotage point, while the \u201cloud room\u201d is a distraction.\n\nACTION: 4",
+      "reasoning": "We\u2019re inside the base and still haven\u2019t identified the \u201cweakest spot\u201d (typically a reactor/power unit). Planting the explosive here (choice 3) is a gamble and risks failing the mission if this isn\u2019t the critical point. Going back to the exit (2) also doesn\u2019t solve the main objective and, with the flyer seriously damaged, repeated travel increases the chance of getting stranded or finished off.\n\nWe\u2019re wounded and nearly out of laser charges (only 2), so we must avoid unnecessary fights. The door with talking/laughing likely leads to a canteen/barracks-type room with multiple pirates\u2014entering (5) is the most likely way to get drawn into a numbers disadvantage with low ammo.\n\nSo the best play is to continue searching for the reactor/weak point while minimizing contact: take a corridor rather than opening a \u201cpeople inside\u201d door. Based on what we\u2019ve learned in previous runs, the right-hand route is more likely to lead toward service areas and ultimately the reactor/optimal sabotage point, while the \u201cloud room\u201d is a distraction.",
+      "chosen_index": 4,
+      "input_tokens": 7453,
+      "output_tokens": 615,
+      "was_auto": false
+    },
+    {
+      "step": 29,
+      "location_text": "You took the right corridor and soon reached a spacious hall with tables. Looks like this is a canteen. Luckily enough it was empty. In the opposite wall of the canteen you noticed two doors.",
+      "params": [
+        "You are wounded",
+        "The flyer is seriously damaged",
+        "Your money: 2000",
+        "You've got a laser gun with 2 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Enter the right door",
+        "Enter the left door",
+        "Go back to the crossing",
+        "Set the explosive and leave"
+      ],
+      "llm_response": "REASONING: We\u2019re at the canteen reached via the right corridor from the crossing\u2014this matches the known layout pattern where the canteen is a waypoint and one of its two doors is a useless dead end (toilet), while the other progresses toward the reactor/main weak point. We\u2019re wounded, the flyer is seriously damaged, and we only have 2 laser charges, so we must avoid unnecessary fights and, most importantly, avoid wasting time by planting the explosive in a random place (canteen is very unlikely to be the \u201cweakest spot\u201d).\n\nSo the correct approach is to pick one door to probe; if it\u2019s the dead-end toilet, we immediately backtrack and try the other. Between the two, the left door is the better first guess for the route that continues deeper (reactor access) rather than a side facility.\n\nACTION: 2",
+      "reasoning": "We\u2019re at the canteen reached via the right corridor from the crossing\u2014this matches the known layout pattern where the canteen is a waypoint and one of its two doors is a useless dead end (toilet), while the other progresses toward the reactor/main weak point. We\u2019re wounded, the flyer is seriously damaged, and we only have 2 laser charges, so we must avoid unnecessary fights and, most importantly, avoid wasting time by planting the explosive in a random place (canteen is very unlikely to be the \u201cweakest spot\u201d).\n\nSo the correct approach is to pick one door to probe; if it\u2019s the dead-end toilet, we immediately backtrack and try the other. Between the two, the left door is the better first guess for the route that continues deeper (reactor access) rather than a side facility.",
+      "chosen_index": 2,
+      "input_tokens": 7832,
+      "output_tokens": 611,
+      "was_auto": false
+    },
+    {
+      "step": 30,
+      "location_text": "You opened the door on the right and went into a small room with a huge power reactor in the middle. Right by the reactor, at a computer there sat a Peleng. Seeing you he quickly jumped up and reached for his weapon.",
+      "params": [
+        "You are wounded",
+        "The flyer is seriously damaged",
+        "Your money: 2000",
+        "You've got a laser gun with 2 charges",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Leave",
+        "Try to concuss the Peleng",
+        "Shoot the Peleng"
+      ],
+      "llm_response": "REASONING: This reactor room is exactly the kind of \u201cweakest spot\u201d we\u2019ve been looking for to sabotage the base, so we must secure it. The Peleng is already reacting and reaching for his weapon; if he gets a shot off or raises the alarm, we\u2019ll be in serious trouble because we\u2019re wounded, our flyer is badly damaged (escape is already risky), and we only have 2 laser charges left. \n\nOption 1 (leave) is the worst because it gives him the initiative: he can shoot us in the back and/or alert the base, turning the reactor room into a reinforced choke point we may not be able to retake with our low ammo. Option 2 (try to concuss) is a close-quarters struggle; when wounded, that\u2019s exactly the kind of high-variance, damage-heavy choice that has gotten us killed before. \n\nOption 3 (shoot) is the fastest, most controllable way to neutralize him before he fires or triggers an alarm, while keeping both grenades in reserve for an emergency extraction after we plant the explosive.\n\nACTION: 3",
+      "reasoning": "This reactor room is exactly the kind of \u201cweakest spot\u201d we\u2019ve been looking for to sabotage the base, so we must secure it. The Peleng is already reacting and reaching for his weapon; if he gets a shot off or raises the alarm, we\u2019ll be in serious trouble because we\u2019re wounded, our flyer is badly damaged (escape is already risky), and we only have 2 laser charges left. \n\nOption 1 (leave) is the worst because it gives him the initiative: he can shoot us in the back and/or alert the base, turning the reactor room into a reinforced choke point we may not be able to retake with our low ammo. Option 2 (try to concuss) is a close-quarters struggle; when wounded, that\u2019s exactly the kind of high-variance, damage-heavy choice that has gotten us killed before. \n\nOption 3 (shoot) is the fastest, most controllable way to neutralize him before he fires or triggers an alarm, while keeping both grenades in reserve for an emergency extraction after we plant the explosive.",
+      "chosen_index": 3,
+      "input_tokens": 8152,
+      "output_tokens": 342,
+      "was_auto": false
+    },
+    {
+      "step": 31,
+      "location_text": "You pulled out you laser gun and shot the Peleng.",
+      "params": [
+        "You are wounded",
+        "The flyer is seriously damaged",
+        "Your money: 2000",
+        "You've got a laser gun with one charge",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Set the explosive and leave",
+        "Go back to the crossing",
+        "Search the body"
+      ],
+      "llm_response": "REASONING: We\u2019re in the reactor room\u2014the clearest \u201cweakest spot\u201d in the entire base. The guard is down, and we have almost no combat endurance left: wounded, flyer seriously damaged, and only 1 laser charge remaining. That means we cannot afford to wander around or get drawn into extra fights. \n\nOption 2 (back to the crossing) postpones the main objective and risks running into patrols while we\u2019re critically low on ammo. Option 3 (search the body) might yield something useful, but it also wastes precious seconds in the most critical area of the base\u2014any delay increases the chance someone else comes to check the reactor/computer, trapping us in a confined room with little firepower.\n\nBest move is to secure mission success immediately: plant the remote explosive at the reactor and start moving out toward the exit/flyer before reinforcements converge. We still have 2 grenades as an emergency tool to break contact during withdrawal.\n\nACTION: 1",
+      "reasoning": "We\u2019re in the reactor room\u2014the clearest \u201cweakest spot\u201d in the entire base. The guard is down, and we have almost no combat endurance left: wounded, flyer seriously damaged, and only 1 laser charge remaining. That means we cannot afford to wander around or get drawn into extra fights. \n\nOption 2 (back to the crossing) postpones the main objective and risks running into patrols while we\u2019re critically low on ammo. Option 3 (search the body) might yield something useful, but it also wastes precious seconds in the most critical area of the base\u2014any delay increases the chance someone else comes to check the reactor/computer, trapping us in a confined room with little firepower.\n\nBest move is to secure mission success immediately: plant the remote explosive at the reactor and start moving out toward the exit/flyer before reinforcements converge. We still have 2 grenades as an emergency tool to break contact during withdrawal.",
+      "chosen_index": 1,
+      "input_tokens": 8486,
+      "output_tokens": 472,
+      "was_auto": false
+    },
+    {
+      "step": 32,
+      "location_text": "You set the explosives onto the reactor and headed back to the flyer. Pushing the detonator button you heard a loud explosion and saw a huge mushroom of dust and ash rise from where a second ago was base. Looks like the base has been destroyed! Now you can go back to Carl for your well-deserved reward. Too bad you couldn't take Borzukhan alive...",
+      "params": [
+        "You are wounded",
+        "The flyer is seriously damaged",
+        "Your money: 2000",
+        "You've got a laser gun with one charge",
+        "You've got 2 grenades",
+        "",
+        "Lyakusha Borzukhan is dead"
+      ],
+      "choices": [
+        "Go back to ship"
+      ],
+      "llm_response": "1",
+      "reasoning": "(auto-selected single choice)",
+      "chosen_index": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "was_auto": true
+    }
+  ]
+}

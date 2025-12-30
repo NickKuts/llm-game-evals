@@ -1,0 +1,34 @@
+{
+  "run": 1,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 221328,
+  "total_tokens_out": 24239,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 20,
+      "llm_calls": 16,
+      "failure_reflection": "REASONING: Key mistake: I rushed the capture the moment I saw Borzukhan, acting from a risky position (outside at the window) without first securing a safe takedown angle, checking for traps/guards, or controlling escape routes. Even if he looked alone, the cabin could have alarms, hidden weapons, or a quick line of fire back through the window; \u201capparently didn\u2019t notice\u201d isn\u2019t the same as \u201chelpless.\u201d I also didn\u2019t plan the post-stun sequence (entry, binding, disabling communications) before committing.\n\nNext time: treat the cabin like a hostile structure. Recon all sides, identify exits, pick a controlled entry point (door/back door), get close cover, then stun from point-blank or from the doorway with immediate follow-up (rush in, disarm, restrain). If possible, set up to prevent escape (position by exits). Only use lethal force if capture fails.\n\nImportant info found: Borzukhan isolates in a cabin in the western woods (easy to locate via orientation points). Alternative lead remains: secret passage on the eastern coast into underground caves/base, with mention of a \u201cweak spot\u201d in the base structure.\n\nACTION: 1"
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 26,
+      "llm_calls": 18,
+      "failure_reflection": "Key mistakes:\n- I treated grenades as the default solution. The first grenade at the cave entrance solved the immediate firefight but also raised the alarm; then I pushed deeper immediately, guaranteeing I\u2019d meet a mass response while already wounded.\n- After alerting the base, I advanced into a long corridor without setting a defensible position or planning a retreat path. I should have expected reinforcements and used the entrance/rocks to funnel enemies.\n- Earlier, I revisited the coastal grotto despite it leading to a dead end, wasting time before committing to the mountains.\n\nDo differently next time:\n- Prioritize stealth and control: if enemies appear, consider retreating to cover and picking them off at range instead of using explosives that trigger the whole garrison.\n- If an alarm is raised, don\u2019t go deeper immediately\u2014hold the chokepoint near the entrance, conserve grenades for truly unavoidable swarms, and reset the fight on favorable terrain.\n- Commit sooner to the northern mountains; the detected cave is the strongest lead.\n\nInfo learned:\n- Coastal grotto path can dead-end.\n- Northern mountain cave is guarded; loud actions attract large Peleng groups quickly."
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 30,
+      "llm_calls": 21,
+      "failure_reflection": null
+    }
+  ]
+}

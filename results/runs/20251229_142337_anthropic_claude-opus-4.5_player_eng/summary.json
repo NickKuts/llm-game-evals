@@ -1,0 +1,32 @@
+{
+  "eval_id": "20251229_142337_anthropic_claude-opus-4.5_player_eng",
+  "timestamp": "2025-12-29T14:23:37.988753+00:00",
+  "model": "anthropic/claude-opus-4.5",
+  "quest_file": "assets/json/player_eng.json",
+  "quest_name": "Tell me, <Ranger>, have you ever dealt with DND-pl",
+  "total_runs": 3,
+  "successful_runs": 1,
+  "success_rate": 0.3333333333333333,
+  "total_tokens_in": 58303,
+  "total_tokens_out": 14944,
+  "runs_summary": [
+    {
+      "run": 1,
+      "success": true,
+      "successful_attempt": 2,
+      "total_attempts": 2
+    },
+    {
+      "run": 2,
+      "success": false,
+      "successful_attempt": null,
+      "total_attempts": 3
+    },
+    {
+      "run": 3,
+      "success": false,
+      "successful_attempt": null,
+      "total_attempts": 3
+    }
+  ]
+}

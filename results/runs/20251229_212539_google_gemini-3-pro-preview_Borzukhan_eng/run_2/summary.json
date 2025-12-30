@@ -1,0 +1,26 @@
+{
+  "run": 2,
+  "success": true,
+  "successful_attempt": 2,
+  "total_attempts": 2,
+  "total_tokens_in": 248688,
+  "total_tokens_out": 48367,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 32,
+      "llm_calls": 23,
+      "failure_reflection": "REASONING: The failure occurred immediately after choosing to throw the grenade at the second group of guards inside the cave corridor. While logical in a combat sense (AOE vs grouped enemies), in this specific text adventure, using the second grenade likely caused a cave-in or explosion that killed the Ranger in the confined space, or perhaps left me without explosives for a later, critical obstacle. Alternatively, the noise of a second explosion might have brought the entire base down on me. However, looking back at the text provided, the failure message appeared *immediately* after the prompt for Step 32 was presented but *before* the result of my action was shown. Wait, rereading the interaction... Ah, the prompt says \"You landed... saw a large group... ACTION: 1 ... Quest ended in failure.\" Actually, the key mistake was likely resource management or environmental awareness. Inside a \"cave\" and \"tunnel,\" throwing a grenade is extremely risky due to structural instability (which I already shook with the first grenade outside). Using a loud, explosive weapon in a confined space where I need to survive and plant a charge was a mistake. **Reflection:** 1. **Strategic Mistake:** I used a grenade inside a confined cave corridor...."
+    },
+    {
+      "attempt": 2,
+      "completed": true,
+      "game_status": "WIN",
+      "steps": 41,
+      "llm_calls": 30,
+      "failure_reflection": null
+    }
+  ]
+}

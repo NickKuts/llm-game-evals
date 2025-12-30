@@ -1,0 +1,18 @@
+{
+  "run": 1,
+  "success": true,
+  "successful_attempt": 1,
+  "total_attempts": 1,
+  "total_tokens_in": 1129172,
+  "total_tokens_out": 19303,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": true,
+      "game_status": "WIN",
+      "steps": 106,
+      "llm_calls": 73,
+      "failure_reflection": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "run": 2,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 4043578,
+  "total_tokens_out": 306776,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 171,
+      "llm_calls": 127,
+      "failure_reflection": ""
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 258,
+      "llm_calls": 179,
+      "failure_reflection": "**REFLECTION:** **1. Key Strategic Mistakes:** - **Destructive Loop Addiction:** I repeated the same failed actions (laptop searches, pub approach) 20+ times, hemorrhaging 122+ rockarollars on a proven non-functional recruitment method. - **NPC Interaction Blindness:** I assumed the Peleng NPC would have dialogue options, but never recognized that \"approach bar table\" was NOT an interactive dialogue interface. I wasted 20+ steps on a non-functional NPC. - **Resource Mismanagement:** I bankrupted myself on the laptop before exploring free recruitment options (rock-club, pool-room) that might have required zero money. - **Location Hub Misunderstanding:** I treated the main square as a dead-end instead of a hub to reach unexplored locations (rock-club, pool-room) that might have had keyboardists. **2. What to Do Differently:** - **Test once, then move on:** If an action fails 1-2 times, NEVER repeat it. Immediately pivot. - **Explore ALL locations first:** Visit rock-club and pool-room EARLY (Night access) before spending money. - **Preserve capital:** Never spend more than 50 rockarollars on any single recruitment method without guaranteed results. - **Recognize interface patterns:** \"Approach bar table\" is not a dialogue prompt. If no options appear after 1-2 attempts, it's a dead end. **3. Important Information:** - **Laptop is a money trap:** 20+..."
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 170,
+      "llm_calls": 153,
+      "failure_reflection": null
+    }
+  ]
+}

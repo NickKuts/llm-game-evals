@@ -1,0 +1,32 @@
+{
+  "eval_id": "20251223_162839_google_gemini-3-flash-preview_Muzon_eng",
+  "timestamp": "2025-12-23T16:28:39.091323+00:00",
+  "model": "google/gemini-3-flash-preview",
+  "quest_file": "assets/json/Muzon_eng.json",
+  "quest_name": "The system of <ToStar> (planet <ToPlanet>) is goin",
+  "total_runs": 3,
+  "successful_runs": 0,
+  "success_rate": 0.0,
+  "total_tokens_in": 8196914,
+  "total_tokens_out": 145085,
+  "runs_summary": [
+    {
+      "run": 1,
+      "success": false,
+      "successful_attempt": null,
+      "total_attempts": 3
+    },
+    {
+      "run": 2,
+      "success": false,
+      "successful_attempt": null,
+      "total_attempts": 3
+    },
+    {
+      "run": 3,
+      "success": false,
+      "successful_attempt": null,
+      "total_attempts": 3
+    }
+  ]
+}

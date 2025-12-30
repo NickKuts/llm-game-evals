@@ -1,0 +1,34 @@
+{
+  "run": 2,
+  "success": true,
+  "successful_attempt": 3,
+  "total_attempts": 3,
+  "total_tokens_in": 339949,
+  "total_tokens_out": 36381,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 20,
+      "llm_calls": 16,
+      "failure_reflection": "## Reflection on Failed Quest ### Key Strategic Mistakes: 1. **Shooting through glass with a nearly-depleted stunner** - The stunner was explicitly described as \"almost discharged\" with only \"one or two shots\" left. Firing through a glass window with an unreliable weapon was a critical error. Glass likely interfered with the shot or the stunner failed. 2. **Over-prioritizing the capture bonus** - I focused too much on the 1000 cr bonus for capturing Borzukhan alive instead of ensuring mission success. Should have used the reliable laser gun or chosen a different approach. 3. **Not choosing the direct approach** - Option 5 (kick door in with gun ready) might have been better. He was unaware, and I had 8 laser charges vs 1 target. A guaranteed kill beats a risky capture attempt. ### What to Do Differently: - **Don't rely on nearly-depleted weapons for critical moments** - **When target is unaware and alone, prioritize reliability over bonuses** - **Consider that shooting through windows may not work** ### Key Information Discovered: - Borzukhan's cabin: Western woods (orientation points from pirates) - Base location: Mountains (North) - Secret passage: Coast (East) - Rescue merchant for intel + search pirate bodies for supplies (stunner,..."
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 22,
+      "llm_calls": 15,
+      "failure_reflection": "## Reflection on Failed Quest\n\n**Key Strategic Mistakes:**\n\n1. **Wasted both grenades too early** - Used first grenade on outside guards, which ALERTED the base. Then used my last grenade on the alerted group. Should have conserved grenades for critical moments deeper inside the base or for the final objective.\n\n2. **Poor exploration order** - Went to forest first, got seriously wounded for no benefit. This weakened me throughout the entire quest.\n\n3. **Ignored stealth option** - When the large group charged, \"hide behind a rock\" (option 3) might have let them pass. Instead, I chose combat again while wounded with my last grenade.\n\n**What to do differently:**\n\n- Go to MOUNTAINS directly - it's the main objective location\n- Use LASER GUN for initial combat (10 charges is plenty)\n- SAVE GRENADES for emergencies or final objectives\n- Consider STEALTH options when outnumbered, especially when wounded\n- Avoid forest early - it wounds you without benefit\n\n**Key Information Discovered:**\n\n- Mountains (North) = base entrance (cave)\n- Coast grotto = dead end (wall)\n- Forest = dangerous, causes serious wounds\n- Camp medical post provides partial healing (once?)\n- Grenade explosions alert additional guards inside the base"
+    },
+    {
+      "attempt": 3,
+      "completed": true,
+      "game_status": "WIN",
+      "steps": 28,
+      "llm_calls": 17,
+      "failure_reflection": null
+    }
+  ]
+}

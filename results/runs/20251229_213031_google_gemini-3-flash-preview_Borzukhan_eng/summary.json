@@ -1,0 +1,32 @@
+{
+  "eval_id": "20251229_213031_google_gemini-3-flash-preview_Borzukhan_eng",
+  "timestamp": "2025-12-29T21:30:31.342910+00:00",
+  "model": "google/gemini-3-flash-preview",
+  "quest_file": "assets/json/Borzukhan_eng.json",
+  "quest_name": "Dear <Ranger>! We have received information saying",
+  "total_runs": 3,
+  "successful_runs": 0,
+  "success_rate": 0.0,
+  "total_tokens_in": 392061,
+  "total_tokens_out": 20378,
+  "runs_summary": [
+    {
+      "run": 1,
+      "success": false,
+      "successful_attempt": null,
+      "total_attempts": 3
+    },
+    {
+      "run": 2,
+      "success": false,
+      "successful_attempt": null,
+      "total_attempts": 3
+    },
+    {
+      "run": 3,
+      "success": false,
+      "successful_attempt": null,
+      "total_attempts": 3
+    }
+  ]
+}

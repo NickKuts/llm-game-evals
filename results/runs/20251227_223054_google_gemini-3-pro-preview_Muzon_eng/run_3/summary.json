@@ -1,0 +1,34 @@
+{
+  "run": 3,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 3054272,
+  "total_tokens_out": 496993,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 119,
+      "llm_calls": 101,
+      "failure_reflection": "REFLECTION **1. Key Strategic Mistakes:** * **Time Management Failure:** I allowed the timer to run out. Sleeping on the final night (transitioning to Day 0) triggered an immediate game-over. The band must be formed *before* the morning of the concert. * **Ignoring Status Debuffs:** I wasted numerous turns attempting to recruit the Bassist while \"Sleepy\" and \"Very Sleepy.\" The game explicitly indicated this made my character \"stupid,\" causing automatic failure in dialogue checks. I should have slept earlier or found stimulants (coffee/cola) rather than banging my head against a locked door. * **Inefficient Looping:** I spent too many turns exiting and re-entering the Pub/Pool Room without changing the variables that caused the failure (my exhaustion and lack of items). **2. Corrections for Next Time:** * **Prioritize Daytime:** Aggressively pursue the **Guitarist (Long Street)** and **Drummer (Studio/Shop)** during the day. Do not leave everything for the night. * **Handle the Bassist Correctly:** Interactive him *only* when fresh/sober. The key is to repeatedly \"Listen\" to his music to show respect. Do not \"Invite\" him immediately; he hates interruptions. * **Manage Fatigue:** Sleep *before* reaching \"Very Sleepy\" status, or buy coffee at the Bar/Hotel if available to extend the active day without penalty...."
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 116,
+      "llm_calls": 105,
+      "failure_reflection": "REFLECTION:\n1. **Fatal Error (Fatigue Management):** I entered the critical night phase \"Very Sleepy\" without any stimulants (Coffee/Cola) in my inventory. This status acts as an intelligence debuff, making recruitment of the Bassist impossible.\n2. **The Bar Trap:** I mistakenly hoped the Pub served coffee at night. The \"Have a drink\" option is strictly alcohol. Drinking while \"Very Sleepy\" is lethal or leads to passing out, resulting in failure.\n3. **Missed Preparation:** I must purchase Coffee or Cola during the **Day** from the Street Stall or Shop. These are the permissible ways to cure sleepiness without sleeping (which ends the game) or drinking alcohol (which fails the sobriety check).\n4. **Recruitment Sequence:** I wasted time wandering at night. I need these prerequisites: High Charisma/Intelligence (Fresh status) for the Bassist, and Drumsticks for the Drunken Peleng (Drummer). Prioritize buying consumables *first*."
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 98,
+      "llm_calls": 90,
+      "failure_reflection": null
+    }
+  ]
+}

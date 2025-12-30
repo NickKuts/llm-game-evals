@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quest-evals"
+version = "0.1.0"
+description = "LLM benchmark using Space Rangers 2 text quests"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[project.scripts]
+quest-eval = "quest_evals.cli:main"
+quest-play = "quest_evals.play:main"
+quest-verify = "quest_evals.verify_json:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/quest_evals"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # isort
+    "B",      # flake8-bugbear
+    "UP",     # pyupgrade
+]
+ignore = [
+    "E501",   # line too long (handled by formatter)
+    "B904",   # raise-without-from-inside-except (stylistic)
+    "B007",   # unused-loop-control-variable (stylistic)
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["quest_evals"]

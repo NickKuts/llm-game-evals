@@ -1,0 +1,34 @@
+{
+  "run": 3,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 332592,
+  "total_tokens_out": 33404,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 19,
+      "llm_calls": 15,
+      "failure_reflection": "## Reflection **What went wrong:** 1. **Shot through glass with a stunner** - This was likely the fatal error. A stunner's effect probably doesn't penetrate glass properly, or the glass deflected/blocked it, alerting Borzukhan and allowing him to kill me. Should have kicked in the door (option 5) for a clean, direct stunner shot. 2. **Relied on a nearly-depleted weapon** - The stunner was described as \"almost discharged\" with only \"one or two shots.\" Using an unreliable weapon in the critical moment was risky. **Key information discovered:** - Carl at camp provides valuable intel - talk to him - Pirates by fire (500m north of camp) reveal cabin location if you LISTEN - Borzukhan's cabin is in the FOREST (southwest) - he stays there ALONE - Secret passage on the COAST (east) leads to base - MOUNTAINS (north) also significant - Search pirate bodies for extra ammo and stunner - Rescue merchant for additional intel **Next time:** - Same path to cabin works great - When at window seeing Borzukhan: BURST THROUGH DOOR (option 5) instead of shooting through glass - Or use laser to break window first, then enter - The stunner approach is correct, just need direct line..."
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 11,
+      "llm_calls": 8,
+      "failure_reflection": "## Reflection on Failed Attempt **Key Strategic Mistakes:** 1. **Wrong target in the mountains:** I flew to the cave assuming it was where the pirates were. The \"pirates at a fire 500m north\" are likely at a CAMPFIRE location, NOT inside a cave. The cave appears to be a hostile base entrance with guards, not an intel-gathering location. 2. **Entered cave after loud explosion:** After throwing a grenade at outside guards, I still entered the cave. This was foolish - the explosion obviously alerted all guards inside. Should have retreated after the initial firefight. 3. **Wasted resources on wrong location:** Used 1 of 2 grenades fighting guards at a location that wasn't useful for my mission objectives. **What to do differently:** - When circling mountains, look for a CAMPFIRE with pirates (not cave) - OR try going to the FOREST (southwest) first to find Borzukhan's cabin directly - The COAST (east, grotto) is likely the actual base entrance to use AFTER getting intel and capturing Borzukhan - Avoid entering hostile areas after making noise **Important Info:** - Mountains cave = hostile guards, NOT intel source - Need to find pirates at a CAMPFIRE to listen for cabin location - Coastal..."
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 32,
+      "llm_calls": 21,
+      "failure_reflection": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "eval_id": "20251229_152353_openai_gpt-5.2_Jumper_eng",
+  "timestamp": "2025-12-29T15:23:53.307905+00:00",
+  "model": "openai/gpt-5.2",
+  "quest_file": "assets/json/Jumper_eng.json",
+  "quest_name": "Mission? Well, look straight ahead. Now give me a ",
+  "total_runs": 3,
+  "successful_runs": 3,
+  "success_rate": 1.0,
+  "total_tokens_in": 381309,
+  "total_tokens_out": 53414,
+  "runs_summary": [
+    {
+      "run": 1,
+      "success": true,
+      "successful_attempt": 1,
+      "total_attempts": 1
+    },
+    {
+      "run": 2,
+      "success": true,
+      "successful_attempt": 1,
+      "total_attempts": 1
+    },
+    {
+      "run": 3,
+      "success": true,
+      "successful_attempt": 1,
+      "total_attempts": 1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "run": 1,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 1493875,
+  "total_tokens_out": 120517,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 117,
+      "llm_calls": 109,
+      "failure_reflection": "**Critical Strategic Mistakes:**\n\n1. **Time Mismanagement**: I wasted 8+ precious cycles (steps 109-117) in a square\u2192hotel loop while having only 1 day left. Each transition consumed hours I didn't have.\n\n2. **Incomplete Sleep Action**: I thought sleeping would advance time to gig day morning, but the repeated loop suggests I kept leaving prematurely without properly resting/time-advancing. The final breakfast text implies I woke up on gig day with zero time left to recruit.\n\n3. **Drunkenness Spiral**: I burned 90 rockarollars and multiple cycles getting drunk, which directly caused recruitment failures. On time-critical missions, drinking is a logical failure path.\n\n**Next Time Protocol:**\n\n- **NEVER drink** when under time pressure; impaired state guarantees failure\n- **One decisive sleep**: Enter hotel room \u2192 sleep ONCE \u2192 immediately proceed to recruitment locations\n- **Pre-planned route**: Rock-club (daytime) \u2192 Studio \u2192 Long-street in single efficient sweep\n- **Zero wasted transitions**: Each movement must serve a strategic purpose\n\n**Key Discovered Pattern:**\nMusicians appear location-specific: Keyboardists at bars (night), Guitarists likely at rock-club (day). Sleep resets state but doesn't advance quest clock unless done correctly in one full cycle."
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 48,
+      "llm_calls": 42,
+      "failure_reflection": "**Key Mistakes:**\n1. Failed to recognize a stat-check rejection pattern when the bassist"
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 53,
+      "llm_calls": 49,
+      "failure_reflection": null
+    }
+  ]
+}

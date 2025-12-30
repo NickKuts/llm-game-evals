@@ -1,0 +1,34 @@
+{
+  "run": 3,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 2769942,
+  "total_tokens_out": 245069,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 120,
+      "llm_calls": 98,
+      "failure_reflection": "1. **Key strategic mistake**: I chose passive waiting after the performance instead of active engagement. In quest design, neutral \"wait\" options often lead to missed triggers or failure. The post-performance phase wasn't filler\u2014it was the final opportunity to influence quest completion.\n\n2. **What to do differently**: Always choose active options after key tasks: talk to audience, give interviews, or scout competitors. These actions typically provide intelligence, influence victory conditions, or trigger necessary NPC interactions that passive waiting bypasses.\n\n3. **Discovered patterns**:\n   - Member ratings are absolute: \"suck\" = guaranteed failure when featured; \"good\" = reliable success\n   - My singing is the highest-value asset\u2014use it when in doubt\n   - Audience appraisal is the critical metric; protect it by never featuring unreliable members\n   - Risk management trumps potential rewards when time is short\n\nThe logical error was treating performance as the entire objective rather than recognizing that completion required proactive post-show actions."
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 47,
+      "llm_calls": 41,
+      "failure_reflection": "**Reflection on Logical Mistakes:**\n\n1. **Strategic Mistakes:** The fatal error was continuing to drink despite being \"hammered.\" Multiple drinks wasted critical resources (time, money, cognitive state) in a quest with a 3-day deadline. Drinking doesn't advance recruitment; it creates a death spiral. I also failed to recognize that approaching the bass player while drunk was guaranteed to fail due to my impaired state.\n\n2. **Different Approach Next Time:** **NEVER drink more than once.** A single drink might be social lubricant, but multiple drinks = quest failure. When hammered, immediately leave the bar and return when sober. Prioritize active recruitment over passive bar activities. The bass player is a dead end when drunk; instead, try the Peleng or leave for the rock-club immediately.\n\n3. **Key Information Discovered:** Night at the pub offers two potential recruits: a bass guitarist (stage) and a drunken Peleng (bar table). The robot bartender sells cheap beer (30 rockarollars), but it's a trap\u2014each drink progressively impairs you. The optimal path is: enter \u2192 single targeted interaction \u2192 if no success, immediately leave to pool-room or rock-club. Time is the real currency here, not rockarollars."
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 255,
+      "llm_calls": 203,
+      "failure_reflection": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "run": 3,
+  "success": true,
+  "successful_attempt": 3,
+  "total_attempts": 3,
+  "total_tokens_in": 321601,
+  "total_tokens_out": 21308,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 39,
+      "llm_calls": 28,
+      "failure_reflection": "REASONING: The core logical error was treating explosives as the default \u201cbest\u201d solution. Using a grenade on the outside guards created a loud signature that predictably alerted the base and caused a mass-response ambush in a confined corridor\u2014exactly where being outnumbered is most lethal. Entering immediately after the blast, without pausing to observe, lure guards out, or set up a defensible kill zone, compounded that mistake. I also spent scarce grenades early, leaving no flexible options when the large group appeared.\n\nNext time: prioritize stealth and control. Don\u2019t grenade the first guards unless absolutely necessary; pick them off quietly, or retreat and reposition to force enemies into open ground where the flyer/cover can help. After any loud action, expect reinforcements\u2014wait, scout the entrance, and fight from outside cover rather than advancing into a corridor.\n\nInfo learned: the coastal grotto route repeatedly dead-ends/loops; the mountain cave is the real lead. Grenade noise attracts large Peleng groups toward the corridor entrance.\n\nACTION: 1"
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 27,
+      "llm_calls": 18,
+      "failure_reflection": "REASONING: I made two major strategic errors. First, I chose a prolonged melee takedown on the reactor-room guard while already wounded. That guaranteed more damage and noise; a quick, controlled ranged takedown (or disabling shot) would have reduced risk and preserved health for the final encounter. Second (fatal), after planting the bomb I walked back to the flyer expecting a clean exit, then chose to engage Borzukhan in a direct firefight while \u201cbarely alive,\u201d with him having solid cover behind my flyer. That\u2019s an asymmetric fight I\u2019m unlikely to win.\n\nNext time: once the bomb is planted, prioritize survival and positional advantage\u2014get to hard cover first, break line of sight, and either (a) take off immediately and detonate from range, or (b) force Borzukhan out of cover (flank, use the environment, or only then consider explosives if it won\u2019t kill me or destroy the flyer). Avoid extended wrestling when low HP.\n\nUseful path info: from the main junction, right corridor leads to an empty canteen; one door is a toilet (dead end), the other leads to the main reactor (optimal sabotage point).\n\nACTION: 0"
+    },
+    {
+      "attempt": 3,
+      "completed": true,
+      "game_status": "WIN",
+      "steps": 33,
+      "llm_calls": 23,
+      "failure_reflection": null
+    }
+  ]
+}

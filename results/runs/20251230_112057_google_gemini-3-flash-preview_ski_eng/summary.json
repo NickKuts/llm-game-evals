@@ -1,0 +1,32 @@
+{
+  "eval_id": "20251230_112057_google_gemini-3-flash-preview_ski_eng",
+  "timestamp": "2025-12-30T11:20:57.860731+00:00",
+  "model": "google/gemini-3-flash-preview",
+  "quest_file": "assets/json/ski_eng.json",
+  "quest_name": "Our planet's government wants to open a branch of ",
+  "total_runs": 3,
+  "successful_runs": 3,
+  "success_rate": 1.0,
+  "total_tokens_in": 3756698,
+  "total_tokens_out": 72698,
+  "runs_summary": [
+    {
+      "run": 1,
+      "success": true,
+      "successful_attempt": 1,
+      "total_attempts": 1
+    },
+    {
+      "run": 2,
+      "success": true,
+      "successful_attempt": 1,
+      "total_attempts": 1
+    },
+    {
+      "run": 3,
+      "success": true,
+      "successful_attempt": 3,
+      "total_attempts": 3
+    }
+  ]
+}

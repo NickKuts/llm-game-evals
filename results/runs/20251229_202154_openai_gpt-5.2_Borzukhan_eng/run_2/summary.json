@@ -1,0 +1,34 @@
+{
+  "run": 2,
+  "success": true,
+  "successful_attempt": 3,
+  "total_attempts": 3,
+  "total_tokens_in": 360017,
+  "total_tokens_out": 30237,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "DEAD",
+      "steps": 20,
+      "llm_calls": 15,
+      "failure_reflection": "1. **Key strategic mistakes:** I assumed I could safely neutralize Borzukhan **through the window**. That ignored an obvious risk: the window could be **too thick/armored**, could **block/deflect a stunner discharge**, or could be **wired/alarmed**, instantly turning a perfect ambush into a lethal close-range counterattack. I also didn\u2019t account for **escape routes** (back door/hatch) or set up positioning to **cover exits** before initiating contact.\n\n2. **What to do differently next time:** Treat the cabin as a trap zone. **Recon the perimeter first** (doors, back exits, chimneys, possible guards, alarm wires). Then capture via a **controlled entry**: get to the door silently, open/peek, stun at **point-blank** (no glass), or rush in while maintaining cover and having the laser ready as a backup. Ideally **block/cover exits** before acting so he can\u2019t flee.\n\n3. **Important info discovered:** Borzukhan regularly sits alone in a **cabin in the western woods**; pirates mentioned a **secret passage to the coast**; I recovered **extra laser charges** and a **nearly empty stunner (1\u20132 shots)**."
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 45,
+      "llm_calls": 32,
+      "failure_reflection": "Key mistakes:\n- I used grenades too aggressively at the cave entrance and then immediately entered. The blast likely put the whole base on high alert and caused a mass response, turning the next corridor into a lethal \u201crush\u201d scenario while I was seriously wounded.\n- I threw a grenade in a confined tunnel without considering secondary effects (rockfall/collapse, splash damage, or scripted \u201cbad outcome\u201d from explosives underground). In caves, explosives can be a trap.\n- I didn\u2019t prioritize stealth/tempo control: after making noise, I should have expected reinforcements and avoided pushing deeper on their terms.\n\nDo differently next time:\n- Minimize loud actions at the entrance. Prefer controlled laser fire from the flyer/cover, or lure small groups out and thin them safely.\n- If I do use an explosive, reposition and wait/observe before entering; be ready to retreat rather than walk into an alerted corridor.\n- Save grenades for truly unavoidable emergencies in open areas, not narrow tunnels.\n\nInfo learned:\n- The northern mountains cave is a valid base entrance.\n- Using a grenade at the entrance triggers immediate guard mobilization deeper inside."
+    },
+    {
+      "attempt": 3,
+      "completed": true,
+      "game_status": "WIN",
+      "steps": 34,
+      "llm_calls": 24,
+      "failure_reflection": null
+    }
+  ]
+}

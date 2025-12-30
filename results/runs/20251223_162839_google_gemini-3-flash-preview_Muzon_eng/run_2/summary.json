@@ -1,0 +1,34 @@
+{
+  "run": 2,
+  "success": false,
+  "successful_attempt": null,
+  "total_attempts": 3,
+  "total_tokens_in": 3499141,
+  "total_tokens_out": 60709,
+  "attempts_summary": [
+    {
+      "attempt": 1,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 119,
+      "llm_calls": 100,
+      "failure_reflection": "REASONING:\n1. **Strategic Mistakes**: The primary failure was time management on the final day. I spent the entire Day 2 and Evening/Night searching for an \"elite\" guitarist (like the 27-string player) without success, ignoring the fact that a complete band of any quality is required to perform. By going to sleep without the 4th member, the quest timed out on the morning of the gig.\n\n2. **Course Correction**: In the future, if it reaches the afternoon of the final day and a slot is still empty, I must lower my standards and recruit ANY available musician (using the laptop or the pub) rather than holding out for \"Good\" or \"Elite\" players. Completing the band is the primary win condition; quality is secondary. \n\n3. **Key Information**: \n- The 27-string guitarist on the long street has high requirements (likely high reputation or specific state) and shouldn't be chased if time is running out. \n- The pool room and rock club are good for late-game recruitment, but the laptop is the most reliable fallback.\n- \"Sleepy\" status is a warning; the quest effectively ends if you go to bed on the final night without a full lineup.\n\nACTION: 1"
+    },
+    {
+      "attempt": 2,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 124,
+      "llm_calls": 104,
+      "failure_reflection": "STRATEGIC REFLECTION:\n\n1. **Logical Mistakes:** I spent too much time in the Pool Room gambling for money I didn't need. Money (155 rockarollars) is useless without a full band. The critical mistake was over-pursuing the \"Drunk Peleng\" clue at the expense of time. By the time I tried to use the laptop for emergency recruitment, I was \"very sleepy!!!\" and passed out mid-action. I also ignored the \"reading\" clue; I should have visited the Laptop's Library earlier in the mission to understand how to win the pool game efficiently or unlock a specific musician.\n\n2. **Course Correction:** Prioritize the band lineup over reputation/stats by mid-day of Day 2. Do not wait until the final night to find the last two members. Use the Laptop Library immediately on Day 1 to gather all intelligence. \n\n3. **Key Discoveries:**\n   - Entering the \"very sleepy!!!\" state is a hard cutoff; your next action (besides sleeping) will likely cause a knockout.\n   - Being \"a bit drunk\" allows you to win at pool, but it blocks elite recruitment (like the Bassist in the pub).\n   - \"Killer mood\" and rock gear (Tattoo/Piercing) are essential, but must be obtained earlier to save night-time for recruitment."
+    },
+    {
+      "attempt": 3,
+      "completed": false,
+      "game_status": "FAIL",
+      "steps": 125,
+      "llm_calls": 115,
+      "failure_reflection": null
+    }
+  ]
+}
