@@ -2,7 +2,7 @@
 
 LLM benchmark using text quests from Space Rangers 2 (2004). Tests state tracking, strategic planning, and multi-step reasoning.
 
-A Christmas 2025 side project. ~$150 spent on API calls via OpenRouter.
+~$150 spent on API calls via OpenRouter.
 
 ## Why This Benchmark?
 
