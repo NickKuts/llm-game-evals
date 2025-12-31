@@ -51,13 +51,11 @@ The [Codebox](https://spacerangers.fandom.com/wiki/Codebox) quest (pictured) inc
 
 ## Evaluated Quests
 
-For this initial evaluation, we selected 5 quests testing diverse abilities:
+For this initial evaluation, 5 quests were selected testing abilities, such as:
 - **Spatial grid reasoning** (Jumper) — similar to early ARC-AGI grid tasks, requiring mental modeling of positions and distances
 - **Long-horizon planning with NPC feedback** (Muzon) — requires interpreting signals and feedback from NPCs, adapting strategy, and instruction-following across sequence of 100-150 steps.
 - **Tactical decision-making** (Borzukhan) — investigate context, weigh risks, execute multi-step plans
 - **Economic optimization** (Ski) — resource management simulation, similar in spirit to Vending-Bench.
-
-A diverse stack that any focused 12-year-old can solve. But can SOTA LLMs?
 
 | Quest | Type | Difficulty | Description |
 |-------|------|------------|-------------|
@@ -66,8 +64,6 @@ A diverse stack that any focused 12-year-old can solve. But can SOTA LLMs?
 | Jumper (Very Hard, ~50 steps) | Spatial + resource | Very Hard | Navigate 23 platforms across 5 tiers with limited battery, find optimal path using recharge stations |
 | Borzukhan (Medium, ~40 steps) | Combat tactics | Medium | Infiltrate a pirate base via main entrance or secret passage, plant explosives, capture the pirate leader |
 | Muzon (Easy*, ~100 steps) | Social reasoning | Easy* | Form a rock band by recruiting musicians, manage rehearsals and win the galactic music festival |
-
-*Muzon is rated "Easy" in-game but requires understanding NPC feedback and updating strategy — something LLMs consistently fail at.
 
 <details>
 <summary>Full quest list (35 quests)</summary>
