@@ -52,11 +52,11 @@ The [Codebox](https://spacerangers.fandom.com/wiki/Codebox) quest (pictured) inc
 ## Evaluated Quests
 
 For this initial evaluation, we selected 5 quests testing diverse abilities:
-- **Spatial grid reasoning** (Jumper) — similar to early ARC-AGI tasks, requiring mental modeling of positions and distances
+- **Spatial grid reasoning** (Jumper) — similar to early ARC-AGI grid tasks, requiring mental modeling of positions and distances
 - **Adversarial logic** (Player) — game theory under uncertainty
 - **Long-horizon planning with NPC feedback** (Muzon) — requires interpreting implicit signals, adapting strategy, and instruction-following across attempts
 - **Tactical decision-making** (Borzukhan) — investigate context, weigh risks, execute multi-step plans
-- **Economic optimization** (Ski) — resource management simulation, similar in spirit to [Vending-Bench](https://github.com/vending-bench/vending-bench)
+- **Economic optimization** (Ski) — resource management simulation, similar in spirit to Vending-Bench.
 
 A diverse stack that any focused 12-year-old can solve. But can SOTA LLMs?
 
