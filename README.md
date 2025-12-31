@@ -53,8 +53,7 @@ The [Codebox](https://spacerangers.fandom.com/wiki/Codebox) quest (pictured) inc
 
 For this initial evaluation, we selected 5 quests testing diverse abilities:
 - **Spatial grid reasoning** (Jumper) — similar to early ARC-AGI grid tasks, requiring mental modeling of positions and distances
-- **Adversarial logic** (Player) — game theory under uncertainty
-- **Long-horizon planning with NPC feedback** (Muzon) — requires interpreting implicit signals, adapting strategy, and instruction-following across attempts
+- **Long-horizon planning with NPC feedback** (Muzon) — requires interpreting signals and feedback from NPCs, adapting strategy, and instruction-following across sequence of 100-150 steps.
 - **Tactical decision-making** (Borzukhan) — investigate context, weigh risks, execute multi-step plans
 - **Economic optimization** (Ski) — resource management simulation, similar in spirit to Vending-Bench.
 
