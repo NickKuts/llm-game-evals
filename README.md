@@ -51,18 +51,19 @@ The [Codebox](https://spacerangers.fandom.com/wiki/Codebox) quest (pictured) inc
 
 ## Evaluated Quests
 
-For this initial evaluation, 5 quests were selected testing abilities, such as:
+For this initial evaluation, 5 quests were selected testing diverse abilities:
+- **Adversarial logic** (Player) — solve a deterministic puzzle against a system that picks worst-case scenarios after your first move
 - **Spatial grid reasoning** (Jumper) — similar to early ARC-AGI grid tasks, requiring mental modeling of positions and distances
-- **Long-horizon planning with NPC feedback** (Muzon) — requires interpreting signals and feedback from NPCs, adapting strategy, and instruction-following across sequence of 100-150 steps.
-- **Tactical decision-making** (Borzukhan) — investigate context, weigh risks, execute multi-step plans
-- **Economic optimization** (Ski) — resource management simulation, similar in spirit to Vending-Bench.
+- **Long-horizon planning with NPC feedback** (Muzon) — requires interpreting signals and feedback from NPCs, adapting strategy across 100-150 steps
+- **Tactical decision-making** (Borzukhan) — gather intel, weigh risks, execute multi-step infiltration plan
+- **Economic optimization** (Ski) — resource management simulation, similar in spirit to Vending-Bench
 
 | Quest | Type | Difficulty | Description |
 |-------|------|------------|-------------|
 | Ski (Medium, ~150 steps) | Optimization | Medium | Earn 1M credits in 20 days by building ski tracks, lifts, hotels and managing resort popularity |
-| Player (Easy, ~10 steps) | Logic puzzle | Easy | Fix an ancient DND-player device by trial and error |
-| Jumper (Very Hard, ~50 steps) | Spatial + resource | Very Hard | Navigate 23 platforms across 5 tiers with limited battery, find optimal path using recharge stations |
-| Borzukhan (Medium, ~40 steps) | Combat tactics | Medium | Infiltrate a pirate base via main entrance or secret passage, plant explosives, capture the pirate leader |
+| Player (Easy, ~10 steps) | Logic puzzle | Easy | Solve an adversarial logic puzzle: identify a hidden pattern on a 3×3 grid using exactly 2 queries |
+| Jumper (Very Hard, ~50 steps) | Spatial + resource | Very Hard | Navigate 23 platforms across 5 tiers with limited battery, plan energy-efficient paths using recharge stations |
+| Borzukhan (Medium, ~40 steps) | Combat tactics | Medium | Locate a hidden pirate base, gather intel, plant explosives at the weak point, capture the leader alive |
 | Muzon (Easy*, ~100 steps) | Social reasoning | Easy* | Form a rock band by recruiting musicians, manage rehearsals and win the galactic music festival |
 
 <details>
